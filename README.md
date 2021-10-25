@@ -36,3 +36,11 @@ _vehicleObject setVariable ["ExileOwnerUID", (_data select 3)];
 to
 
 _vehicleObject setVariable ["ExileOwnerUID", (_data select 3), true];
+
+Note, if you use Exile's built in virtual garage you will need to change ExileServer_object_vehicle_database_loadFromVirtualGarage.sqf
+
+_vehicleObject setVariable ["ExileOwnerUID", (_data select 3)];
+
+to
+
+_vehicleObject setVariable ["ExileOwnerUID", (_data select 3), true];
