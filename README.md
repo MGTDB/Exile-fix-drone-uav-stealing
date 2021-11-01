@@ -1,5 +1,6 @@
 # Exile fix drone/uav stealing
 Small script to stop drone and uav stealing by players on same side
+It also fixes the simulation bug on remote vehicles
 
 Client
 
