@@ -10,6 +10,7 @@ _checkDrone =
 		_ownerUID = _uav getVariable ["ExileOwnerUID",""];
 		if !(getPlayerUID player == _ownerUID) then
 		{
+			(findDisplay 160) closeDisplay 0;
 			player connectTerminalToUAV objNull;
 		};
 	};
